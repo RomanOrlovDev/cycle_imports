@@ -1,7 +1,5 @@
 package action
 
-import "import_cycles/view"
-
-var Register = map[string]func(v *view.SomeView){
+var Register = map[string]func(v Viewer){
 	"Say": Say,
 }
